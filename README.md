@@ -13,12 +13,9 @@ Usage: ./steamshot-sort.sh [-h|--help] [-i|--interactive] [-u|--undo] [-d|--daem
 ```
 
 The script is optimized to only download 100B per API call to Steam, in order to identify game titles.  
-The automatic daemon mode is best used as a startup script, and uses minimal resources:  
-``$ ps -p 215987 -o pid,%cpu,%mem,etime,args``
-```
-PID     %CPU %MEM  ELAPSED COMMAND
-215987  0.0  0.0   02:26   /bin/bash ./steamshot-sort.sh -d
-```
+
+> The automatic daemon mode is best used as a startup script, and uses minimal resources:  
+<img width="700" height="100" alt="image" src="https://github.com/user-attachments/assets/5eec3eb1-9292-421b-b3c8-602917ddb8d1" />
 
 
 > You will need to change your Steam settings to allow for saving external (local) copies of your screenshots, and set the output folder to match the one used in the script:
